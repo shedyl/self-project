@@ -2,6 +2,7 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+/.idea
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -14,6 +15,10 @@ public/hot
 # Laravel 5 & Lumen specific with changed public path
 public_html/storage
 public_html/hot
+/public/packages
+/public/js
+/public/css
+/public/mix-manifest.json
 
 storage/*.key
 .env
