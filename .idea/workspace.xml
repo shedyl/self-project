@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eef5dade-2bf5-445a-aacb-1627396d74ca" name="Default Changelist" comment="docker setup">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="eef5dade-2bf5-445a-aacb-1627396d74ca" name="Default Changelist" comment="add directories to gitignore">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,11 +157,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../karsula-back" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620034901765</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add directories to gitignore">
+      <created>1620035426009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620035426009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,20 +222,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docker setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker setup" />
+    <MESSAGE value="add directories to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add directories to gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620034561928">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1620034561928" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1620035337024">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1620040370060">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1620035337024" />
-    <state x="407" y="135" width="618" height="522" key="find.popup" timestamp="1620034339704">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1620040370060" />
+    <state x="542" y="99" width="338" height="595" key="RollbackChangesDialog" timestamp="1620040458717">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="407" y="135" width="618" height="522" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1620034339704" />
+    <state x="542" y="99" width="338" height="595" key="RollbackChangesDialog/67.27.1299.741@67.27.1299.741" timestamp="1620040458717" />
+    <state x="311" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1620035430140">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1620035430140" />
+    <state x="407" y="135" width="618" height="522" key="find.popup" timestamp="1620039815546">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="407" y="135" width="618" height="522" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1620039815546" />
   </component>
 </project>
