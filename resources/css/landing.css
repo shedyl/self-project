@@ -1,0 +1,11 @@
+.bg {
+    text-align: center;
+    justify-content: center;
+    /*text-decoration-color: red;*/
+    background-color: #6200ff;
+
+}
+.title-s {
+    font-weight: 900;
+    font-size: large;
+}

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FileUploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +21,13 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+
+Route::get('/upload-file', [FileUploadController::class, 'createForm']);
+
+Route::post('/upload-file', [FileUploadController::class, 'fileUpload'])->name('fileUpload');
+
+
+Route::get('/audio', 'App\Http\Controllers\FileUploadController@getAudio')->name('test');
 
 require __DIR__.'/auth.php';
